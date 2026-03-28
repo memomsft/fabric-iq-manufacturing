@@ -1,0 +1,9 @@
+SupplierId,SupplierName,Country,Region,ContactEmail,Category,Rating
+SUP-001,Acero del Norte SA,Mexico,Monterrey,contacto@aceronorte.mx,Metales,4.5
+SUP-002,Polimeros Industriales MX,Mexico,Guadalajara,ventas@polimerosmx.com,Polimeros,4.2
+SUP-003,Componentes Precision SA,Mexico,CDMX,info@cprecision.mx,Electronica,4.8
+SUP-004,Quimica Basica del Bajio,Mexico,Leon,contacto@qbbajio.com,Quimicos,3.9
+SUP-005,Textiles Industriales Norte,Mexico,Torreon,ventas@textilnorte.mx,Textiles,4.1
+SUP-006,Metales y Aleaciones SA,Mexico,Saltillo,info@metalesaleaciones.mx,Metales,4.6
+SUP-007,Plasticos Avanzados MX,Mexico,Queretaro,contacto@plasticosavanzados.com,Polimeros,4.3
+SUP-008,Electronica de Precision,Mexico,Tijuana,ventas@electroprecision.mx,Electronica,4.7

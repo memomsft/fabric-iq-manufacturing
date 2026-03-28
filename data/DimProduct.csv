@@ -1,0 +1,11 @@
+ProductId,ProductName,Category,SubCategory,UnitCost,LeadTimeDays,MinStockLevel,SupplierId
+PROD-001,Lamina de Acero Calibre 18,Materia Prima,Metales,450.00,7,500,SUP-001
+PROD-002,Resina ABS Industrial,Materia Prima,Polimeros,320.00,5,300,SUP-002
+PROD-003,Sensor de Temperatura IO-Link,Componentes,Electronica,1250.00,14,50,SUP-003
+PROD-004,Acido Sulfurico Industrial,Materia Prima,Quimicos,180.00,3,200,SUP-004
+PROD-005,Tela No Tejida Industrial,Materia Prima,Textiles,95.00,4,1000,SUP-005
+PROD-006,Aleacion de Aluminio 6061,Materia Prima,Metales,780.00,10,400,SUP-006
+PROD-007,Polietileno de Alta Densidad,Materia Prima,Polimeros,290.00,5,600,SUP-007
+PROD-008,Modulo PLC Siemens S7,Componentes,Electronica,8500.00,21,20,SUP-008
+PROD-009,Lamina Galvanizada Calibre 20,Materia Prima,Metales,380.00,7,450,SUP-001
+PROD-010,Nylon PA66 Industrial,Materia Prima,Polimeros,410.00,6,250,SUP-002

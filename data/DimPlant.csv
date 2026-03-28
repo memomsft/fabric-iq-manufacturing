@@ -1,0 +1,7 @@
+PlantId,PlantName,City,State,Country,PlantType,Capacity
+PLT-001,Monterrey,Monterrey,Nuevo Leon,Mexico,Manufactura,5000
+PLT-002,Guadalajara,Guadalajara,Jalisco,Mexico,Manufactura,3500
+PLT-003,CEDIS Norte,Monterrey,Nuevo Leon,Mexico,Almacen,8000
+PLT-004,CEDIS Centro,CDMX,Ciudad de Mexico,Mexico,Almacen,6000
+PLT-005,Queretaro,Queretaro,Queretaro,Mexico,Manufactura,4200
+PLT-006,CEDIS Occidente,Guadalajara,Jalisco,Mexico,Almacen,5500

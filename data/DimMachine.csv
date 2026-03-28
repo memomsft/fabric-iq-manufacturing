@@ -1,0 +1,5 @@
+MachineId,MachineName,PlantId,MachineType,Manufacturer,InstallYear,MaxTemperature,MaxVibration
+MCH-001,Prensa Hidraulica PH-500,PLT-001,Prensa,AIDA Engineering,2020,80.0,3.0
+MCH-002,Torno CNC TN-200,PLT-001,Torno,Mazak,2021,75.0,2.5
+MCH-003,Soldadora Robotica SR-10,PLT-002,Soldadora,FANUC,2019,78.0,3.5
+MCH-004,Inyectora de Plastico IP-300,PLT-005,Inyectora,Arburg,2022,75.0,2.0
