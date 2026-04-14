@@ -273,9 +273,9 @@ El wizard de configuración de cada relación pide:
 | `factpurchaseorder_has_dimsupplier` | `cumple` | `OrdenDeCompra` | `OrderId` | `OrderId` | `Proveedor` | `SupplierId` | `SupplierId` | `factpurchaseorder` |
 | `factpurchaseorder_has_dimproduct` | `incluida_en` | `OrdenDeCompra` | `OrderId` | `OrderId` | `Producto` | `ProductId` | `ProductId` | `factpurchaseorder` |
 | `factpurchaseorder_has_dimplant` | `recibe` | `OrdenDeCompra` | `OrderId` | `OrderId` | `Planta` | `PlantId` | `PlantId` | `factpurchaseorder` |
-| `dimplant_has_dimmachine` | `opera` | `Planta` | `PlantId` | `PlantId` | `Maquina` | `MachineId` | `MachineId` | `dimmachine` |
+| `dimmachine_has_dimplant` | `opera` | `Maquina` | `MachineId` | `MachineId` | `Planta` | `PlantId` | `PlantId` | `dimmachine` |
 
-> ⚠️ La relación `opera` se genera con nombre automático `dimplant_has_dimmachine` pero su **source data table debe cambiarse a `dimmachine`** — es la única tabla que contiene tanto `PlantId` como `MachineId`. Si se deja `dimplant` como source table, el graph no podrá popular los edges de esta relación.
+> ⚠️ La relación `opera` se genera con nombre automático `dimmachine_has_dimplant` pero su **source data table debe cambiarse a `dimmachine`** — es la única tabla que contiene tanto `PlantId` como `MachineId`. Si se deja `dimplant` como source table, el graph no podrá popular los edges de esta relación.
 
 > ⚠️ La relación `suministra` (Producto → Proveedor) no se genera automáticamente porque fue excluida del Semantic Model para evitar paths ambiguos. Créala manualmente con **Add relationship** en la Ontología:
 > - **Nombre:** `suministra`
